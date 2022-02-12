@@ -1,4 +1,19 @@
 /* nav */
+nav {
+  display: flex;
+}
+
+.nav-title {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.navbar li {
+  display: inline-block;
+  list-style: none;
+  margin-right: 24px;
+  font-weight: 600;
+}
 
 /* Container */
 .container {
