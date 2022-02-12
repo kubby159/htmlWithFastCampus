@@ -1,0 +1,13 @@
+.left-menu {
+  width: 20%;
+  height: 400px;
+  background-color: cornflowerblue;
+  display: inline-block;
+}
+
+.right {
+  width: 80%;
+  height: 400px;
+  background-color: coral;
+  display: inline-block;
+}
