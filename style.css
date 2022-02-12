@@ -1,6 +1,17 @@
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: #000;
+}
+
 /* nav */
 nav {
   display: flex;
+  border-bottom: 1px solid gray;
+  margin-bottom: 24px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
 }
 
 .nav-title {
