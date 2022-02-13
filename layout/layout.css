@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-background {
+  width: 800px;
+  height: 550px;
+
+  background-size: contain;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://cdn.aitimes.com/news/photo/201904/48194_3710_1732.jpg");
+}
+
+.main-title {
+  font-size: 48px;
+}
+.main-content {
+  padding: 8px;
+  line-height: 1.2;
+}
+
+.main-btn {
+  padding: 15px;
+  font-size: 20px;
+  background: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
